@@ -1,0 +1,262 @@
+.bg-purple {
+  background-color: #9610ff !important;
+}
+
+.bg-blue {
+  background-color: #646cfe !important;
+}
+
+.btn-blue {
+  background-color: #646cfe;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-Black.woff") format("woff");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-ExtraBold.woff") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-ExtraLight.woff") format("woff");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SairaCondensed";
+  src: url("../fonts/SairaCondensed-Thin.woff") format("woff");
+  font-weight: 100;
+}
+footer {
+  background: #1e1e1e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .footer-column-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-column-wrapper .footer-column h4 {
+  color: #fff;
+  font-family: "SairaCondensed";
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+}
+footer .footer-column-wrapper .footer-column ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+footer .footer-column-wrapper .footer-column ul li a {
+  color: #fff;
+}
+footer .footer-column-wrapper .footer-column form .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+footer .footer-column-wrapper .footer-column form .form-group:last-child {
+  margin-bottom: 0px;
+}
+footer .footer-column-wrapper .footer-column form .form-group label {
+  width: 20%;
+}
+footer .footer-column-wrapper .footer-column form .form-group input, footer .footer-column-wrapper .footer-column form .form-group textarea {
+  width: 80%;
+}
+footer .footer-column-wrapper .footer-column form .form-group input[type=submit], footer .footer-column-wrapper .footer-column form .form-group textarea[type=submit] {
+  width: 100%;
+}
+
+@media (max-width: 993px) {
+  .header {
+    display: none;
+  }
+}
+.header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-wrapper .header-logo {
+  width: 67px;
+}
+.header .header-wrapper .header-logo img {
+  width: 100%;
+  transform: translateY(30px) scale(2.5);
+}
+.header .header-wrapper .header-navigator ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 10px;
+}
+.header .header-wrapper .header-navigator ul li {
+  margin-right: 8px;
+}
+.header .header-wrapper .header-navigator ul li:last-child {
+  margin-right: 0px;
+}
+.header .header-wrapper .header-navigator ul li:last-child a {
+  border: none;
+  text-shadow: none;
+}
+.header .header-wrapper .header-navigator ul li a {
+  font-family: "SairaCondensed";
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  top: 0px;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.header .header-wrapper .header-navigator ul li a:hover, .header .header-wrapper .header-navigator ul li a.active {
+  background: #fff;
+  color: #262626;
+}
+
+.header-jumbo {
+  padding: 80px;
+  background-image: url("../img/jumbo-background.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.header-jumbo h1 {
+  text-align: center;
+  font-family: "SairaCondensed";
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 0.7;
+  margin-bottom: 0px;
+  color: #fff;
+  text-shadow: 0px 0px 5px #262626;
+}
+
+.page {
+  color: #262626;
+}
+.page .page-description {
+  font-size: 20px;
+  width: 993px;
+  margin: 0 auto 16px;
+}
+@media (max-width: 993px) {
+  .page .page-description {
+    width: 100%;
+  }
+}
+.page .badge {
+  font-family: "SairaCondensed";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price-plan-table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.price-plan-table .price-plan-item {
+  margin-bottom: 50px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 40px;
+}
+.price-plan-table .price-plan-item.pink {
+  background: linear-gradient(to bottom left, #fc6d67, #e7137a);
+}
+.price-plan-table .price-plan-item.purple {
+  background: linear-gradient(to bottom left, #740391, #ea117a);
+}
+.price-plan-table .price-plan-item.teal {
+  background: linear-gradient(to bottom left, #00dec1, #01737d);
+}
+.price-plan-table .price-plan-item.blue {
+  background: linear-gradient(to bottom left, #19f3fd, #9b06ff);
+}
+.price-plan-table .price-plan-item.orange {
+  background: linear-gradient(to bottom left, #f9ae39, #e5147a);
+}
+.price-plan-table .price-plan-item.crem {
+  background: linear-gradient(to bottom left, #ffb180, #ff6c96);
+}
+.price-plan-table .price-plan-item.blue-reverse {
+  background: linear-gradient(to bottom left, #9b06ff, #19f3fd);
+}
+.price-plan-table .price-plan-item .price-plan-header h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "SairaCondensed";
+}
+.price-plan-table .price-plan-item .price-plan-price h2 {
+  background: #fff;
+  color: #155b67;
+  font-family: "SairaCondensed";
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: -20px;
+  border-left: 1px solid #ccc;
+  box-shadow: 1px 4px 5px -1px #611e65db;
+}
+.price-plan-table .price-plan-item .price-plan-price h2 span {
+  font-size: 20px;
+}
+.price-plan-table .price-plan-item .price-plan-content {
+  padding: 0px 30px;
+}
+.price-plan-table .price-plan-item .price-plan-content p {
+  color: #fff;
+}
+
+.services-table .service-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.services-table .service-block .service-items {
+  width: 48%;
+  text-align: center;
+}
+.services-table .service-block .service-image {
+  width: 48%;
+}
+.services-table .service-block .service-image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
