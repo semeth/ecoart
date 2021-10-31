@@ -11,19 +11,21 @@
 </head>
 <body>
     
-    <div class="header bg-dark">
+    <div class="header">
         <div class="container">
             <div class="header-wrapper">
-                <div class="header-logo"><img src="<?php echo base_url('assets/img/wdr-logo.png'); ?>"></div>
+                <div class="header-logo"><h1>ECOART</h1></div>
+                <div class="header-search">
+                    <form>
+                        <input type="text" name="search" placeholder="Caută articole, colecții, artiști">
+                    </form>
+                </div>
                 <div class="header-navigator">
                     <ul>
-                        <li><a href="<?php echo base_url(); ?>" class="<?php echo ($this->router->fetch_class() == 'home') ? 'active' : ''; ?>">Acasa</a></li>
+                        <li><a href="<?php echo base_url(); ?>" class="<?php echo ($this->router->fetch_class() == 'home') ? 'active' : ''; ?>">Explorează</a></li>
                         <li><a href="<?php echo base_url('servicii'); ?>" class="<?php echo ($this->router->fetch_class() == 'servicii') ? 'active' : ''; ?>">Servicii</a></li>
-                        <li><a href="<?php echo base_url('planuri'); ?>" class="<?php echo ($this->router->fetch_class() == 'planuri') ? 'active' : ''; ?>">Planuri</a></li>
-                        <li><a href="<?php echo base_url('testimoniale'); ?>" class="<?php echo ($this->router->fetch_class() == 'testimoniale') ? 'active' : ''; ?>">Testimoniale</a></li>
-                        <li><a href="<?php echo base_url('contact'); ?>" class="<?php echo ($this->router->fetch_class() == 'contact') ? 'active' : ''; ?>">Contact</a></li>
-                        <li><a href="<?php echo base_url('blog'); ?>" class="<?php echo ($this->router->fetch_class() == 'blog') ? 'active' : ''; ?>">Blog</a></li>
-                        <li><a href="<?php echo base_url('parteneriat'); ?>" class="btn btn-blue">Program Parteneriat</a></li>
+                        <li><a href="<?php echo base_url('planuri'); ?>" class="<?php echo ($this->router->fetch_class() == 'planuri') ? 'active' : ''; ?>">Resurse</a></li>
+                        <li><a href="<?php echo base_url('testimoniale'); ?>" class="<?php echo ($this->router->fetch_class() == 'testimoniale') ? 'active' : ''; ?>">Creează</a></li>
                     </ul>
                 </div>
             </div>
