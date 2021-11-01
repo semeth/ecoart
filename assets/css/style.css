@@ -226,12 +226,44 @@ footer .footer-column-wrapper .footer-column form .form-group input[type=submit]
   display: flex;
   align-items: center;
 }
+.header .header-wrapper .header-search form {
+  width: 300px;
+  position: relative;
+}
+.header .header-wrapper .header-search form i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .header .header-wrapper .header-search form input {
   width: 100%;
   outline: none;
   border-radius: 10px;
   border: 1px solid #e5e8eb;
-  padding: 5px 20px;
+  padding: 5px 20px 5px 40px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+}
+.header .header-wrapper .header-search form input::placeholder {
+  color: #808080;
+}
+.header .header-wrapper .header-search form input::-webkit-input-placeholder {
+  color: #808080;
+}
+.header .header-wrapper .header-search form input::-moz-placeholder {
+  color: #808080;
+}
+.header .header-wrapper .header-search form input:-ms-input-placeholder {
+  color: #808080;
+}
+.header .header-wrapper .header-search form input:-moz-placeholder {
+  color: #808080;
+}
+.header .header-wrapper .header-navigator {
+  display: flex;
+  align-items: center;
 }
 .header .header-wrapper .header-navigator ul {
   display: flex;
@@ -251,9 +283,9 @@ footer .footer-column-wrapper .footer-column form .form-group input[type=submit]
 }
 .header .header-wrapper .header-navigator ul li a {
   font-family: "Poppins";
-  font-weight: 500;
-  font-size: 20px;
-  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
   display: inline-block;
   padding: 5px 20px;
   position: relative;

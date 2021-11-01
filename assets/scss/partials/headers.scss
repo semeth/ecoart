@@ -24,16 +24,44 @@
             display: flex;
             align-items: center;
             form{
+                width: 300px;
+                position: relative;
+                i{
+                    position: absolute;
+                    left: 15px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
                 input{
                     width: 100%;
                     outline: none;
                     border-radius: 10px;
                     border: 1px solid #e5e8eb;
-                    padding: 5px 20px;
+                    padding: 5px 20px 5px 40px;
+                    font-family: "Poppins";
+                    font-size: 15px;
+                    font-weight: 400;
+                    &::placeholder{
+                        color: #808080;
+                    }
+                    &::-webkit-input-placeholder{
+                        color: #808080;
+                    }
+                    &::-moz-placeholder{
+                        color: #808080;
+                    }
+                    &:-ms-input-placeholder{
+                        color: #808080;
+                    }
+                    &:-moz-placeholder{
+                        color: #808080;
+                    }
                 }
             }
         }
         .header-navigator{
+            display: flex;
+            align-items: center;
             ul{
                 display: flex;
                 list-style: none;
@@ -51,9 +79,9 @@
                     a{
                         // font-family: "SairaCondensed";
                         font-family: "Poppins";
-                        font-weight: 500;
-                        font-size: 20px;
-                        color: #fff;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #000;
                         display: inline-block;
                         padding: 5px 20px;
                         position: relative;
